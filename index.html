@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- navBar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">ArkAd</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#CV" class="nav-link">Carriculum-Vitae</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#Portfolio" class="nav-link">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#Services" class="nav-link">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#Contact" class="nav-link">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>      
+        </div>
+        
+    </nav>
+    
+    <!-- <h1>Mphatso Kadzakumanja</h1> -->
+
+    <!-- showcase -->
+
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start mb-3">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+               <div>
+                <h1>Mphatso Kadzakumanja</h1>
+                <!-- <p class="lead muted display-5">Web Developer||Mobile App Developer||Desktop App Developer||Cyber Security Consultant</p> -->
+                <p class="lead my-4">Web Developer||Mobile App Developer||Desktop App Developer||Cyber Security||Freelancer</p>
+
+                <button class="btn btn-warning btn-lg mb-3" onclick="window.location.href='mailto:kadzakumanjamphatso6@gmail.com';">Contact Me <img src="img/envelope-at-fill.svg" alt=""></button>
+
+               </div> 
+               <!-- <img class="img-fluid w-50 d-none d-sm-block" src="img/briefcase-bag-svgrepo-com.svg" alt=""> -->
+               <img src="img/kad.jpg" class="rounded-circle img-fluid d-none d-sm-block" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+
+    <section class="text-dark p-5">
+        <div class="container">
+   
+            <div class="text-center justify-content-between align-items-center">
+
+                <div class="bg-warning rounded mb-3 p-3"><h3>My Skills Set</h3></div>
+
+                <div class="accordion" id="skillsAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Programming
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#skillsAccordion">
+                            <div class="accordion-body">
+                                <!-- accordion body -->
+                                <ul class="list-group">
+                                    <li class="list-group-item">Python</li>
+                                    <li class="list-group-item">JavaScript</li>
+                                    <li class="list-group-item">Java</li>
+                                    <li class="list-group-item">PHP</li>
+                                    <li class="list-group-item">C++</li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Networking
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#skillsAccordion">
+                            <div class="accordion-body">
+                                <!-- accordion body -->
+                                <ul class="list-group">
+                                    <li class="list-group-item">Network Design</li>
+                                    <li class="list-group-item">Cisco Packet Tracer</li>
+                                    <li class="list-group-item">Network Security</li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Databases
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#skillsAccordion">
+                            <div class="accordion-body">
+                                <!-- body-->
+                                <ul class="list-group">
+                                    <li class="list-group-item">Database Design</li>
+                                    <li class="list-group-item">Database Architecture</li>
+                                    <li class="list-group-item">Database Design</li>
+                                    <li class="list-group-item">Database Security</li>
+                                    <li class="list-group-item">MySQL</li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Machine Learning
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#skillsAccordion">
+                            <div class="accordion-body">
+                                <!-- body -->
+                                <ul class="list-group">
+                                    <li class="list-group-item">Pandas</li>
+                                    <li class="list-group-item">Numpy</li>
+                                    <li class="list-group-item">Machine Learning Models</li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Cybersecurity Tools
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#skillsAccordion">
+                            <div class="accordion-body">
+                                <!-- body -->
+                                <ul class="list-group">
+                                    <li class="list-group-item">Metasploit</li>
+                                    <li class="list-group-item">Wireshark</li>
+                                    <li class="list-group-item">Beef</li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Learn Sections -->
+
+    <!-- CV -->
+    <section id="CV" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/application-2580867_1280.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md p-5">
+                    <h2>Carriculum-Vitae</h2>
+                    <p class="lead">
+                        I am a hard working person, of sober mind with passion and vision, ready to learn from others including self-learning and of good manners.
+                    </p>
+
+                    <p>
+                        The attached CV contains all the information about me, my qualifications, skills, and experiences. Feel free to download it and contact me for any job opportunities.
+                    </p>
+
+                    <a href="/documents/Mphatso Kadzakumanja CV.pdf" class="btn btn-warning mt-3" download>
+                        <i class="bi bi-download"></i> Download CV
+                    </a>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+                <div class="col-md p-5">
+                    <h2><span class="text-warning">About</span> Me</h2>
+                    <p class="lead">
+                        "I am a third year Computer Science student specializing in cybersecurity. I believe in innovation and for that reason I became passionate about exploring innovative solutions to combat cyber threats and plan to pursue a Master's degree in Cybersecurity to further deepen my knowledge."
+                    </p>
+
+                    <p>
+                        "Outside of academics, I enjoy singing and contributing to different activities that affect my society. I am a team player and I am able to work well with others to achieve a common goal."
+                    </p>
+
+                </div>
+
+                <div class="col-md">
+                    <img src="img/coding-1853305_1280.jpg" alt="" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="p-5 bg" id="Services">
+        <div class="container">
+            <div class="text-center bg-warning rounded mb-3 p-3 mt-5"><h3>Services</h3></div>
+            <!-- <h2 class="text-center mt-4">Services</h2>   -->
+           <div class="row text-center g-4">
+            <div class="col-md"> 
+                <!-- card 1 -->
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Web Development
+                        </h3>
+                        <p class="card-text">Building responsive, user-friendly websites and web applications.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <!-- card 3 -->
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Desktop & Mobile App Development
+                        </h3>
+                        <p class="card-text">Designing and developing cross-platform mobile apps for iOS and Android.</p>
+                        <p class="card-text">Creating powerful, efficient desktop applications for Windows</p>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <!-- card 2 -->
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-person-square"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Freelancing
+                        </h3>
+                        <p class="card-text">From concept to deployment, I deliver tailored solutions for your business needs.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+           </div> 
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+<section id="Portfolio" class="p-5">
+    <div class="container">
+        <div class="text-center bg-warning rounded mb-3 p-3 mt-5"><h3>Portfolio</h3></div>
+        <!-- <h2 class="text-center text-dark mt-4">Portfolio</h2> -->
+        <p class="lead text-center text-dark mb-5">
+            Brief showcase of some of my projects
+        </p>
+        <!-- Centered row -->
+        <div class="row g-4 justify-content-center bg-light p-3 rounded">
+            <!-- First column -->
+            <div class="col-md-6">
+                <div class="card bg-light shadow">
+                    <div class="card-body text-center">
+                        <img src="img/katekisma.png" class="mb-3 img-fluid" alt="">
+                        <div class="card-title mb-3 fw-bold">Katekisma Web-App</div>
+                        <p class="card-text">A church web application which I chose to do voluntarily. The focus was on those people doing classes to join the church so that they can be able to access the materials for study anytime and anywhere without any cost. It can also help church members who are already in the church.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Second column -->
+            <div class="col-md-6">
+                <div class="card bg-light shadow">
+                    <div class="card-body text-center">
+                        <img src="img/school.jpg" class="mb-3 img-fluid" alt="">
+                        <div class="card-title mb-3 fw-bold">School Management Desktop-App</div>
+                        <p class="card-text">A Desktop app that focused on managing the school financial records. An app that enables school management to track school fees payments for students, daily income and expenses, and also students records. The app is able to give a report on prompt and also automatically when a set time reaches.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Third column -->
+            <div class="col-md-6">
+                <div class="card bg-light shadow">
+                    <div class="card-body text-center">
+                        <img src="img/sc-project.png" class="mb-3 img-fluid" alt="">
+                        <div class="card-title mb-3 fw-bold">Bus Booking System (Class group assignment)</div>
+                        <p class="card-text">A bus booking web app which was done by our group (team work). It involved fleet management and driver management. Apart from hands-on experience, this group equiped me with team work skills and I met great minds that could get the job done and also in time, a valuable skill that is needed in many development projects.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fourth Column -->
+            <div class="col-md-6">
+                <div class="card bg-light shadow">
+                    <div class="card-body text-center">
+                        <img src="img/Screenshot 2025-02-07 231629.png" class="mb-3 img-fluid" alt="">
+                        <div class="card-title mb-3 fw-bold">Personal Website</div>
+                        <p class="card-text">A personal Website that talks more about myself.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact and Map -->
+    <section class="p-5" id="Contact">
+        <div class="container">
+            <div class="row g-4">
+                <!-- first column -->
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold"><i class="bi bi-compass-fill"></i> Main Location </span> Lilongwe, Malawi, City Centre
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="fw-bold"><i class="bi bi-envelope"></i> Email</span> kadzakumanjamphatso6@gmail.com
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="fw-bold" ><i class="bi bi-telephone-plus"></i> Phone</span> +265 881 910 090/ 990 502 279
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="https://wa.me/+265881910090" target="_blank"><i class="bi bi-whatsapp text-dark mx-1"></i></a>
+                            <a href="https://www.facebook.com/mphatsokadzakumanja" target="_blank"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="https://www.linkedin.com/in/mphatsokadzakumanja" target="_blank"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="https://www.instagram.com/mphatso_kadzakumanja_" target="_blank"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="https://t.me/MphatsoKadzakumanja" target="_blank"><i class="bi bi-telegram text-dark mx-1"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- column 2 -->
+                 <div class="col-md">
+
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">
+                &copy; 2021 Mphatso Kadzakumanja
+            </p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></i></a>
+        </div>
+
+    </footer>
+
+    <!-- Modal -->
+<!-- <div class="modal fade" id="contact-me" tabindex="-1" aria-labelledby="contact-meLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="contact-meLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form</p>
+
+          <form>
+            <div class="mb-3">
+                <label for="First-Name" class="col-form-label">First Name:</label>
+                <input type="text" class="form-control" id="First-Name">
+            </div>
+
+            <div class="mb-3">
+                <label for="surname" class="col-form-label">Surname:</label>
+                <input type="text" class="form-control" id="surname">
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            
+            <div class="mb-3">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="tel" class="form-control" id="phone">
+            </div>
+            
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- fold back navbar -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+        var navCollapse = document.querySelector('.navbar-collapse');
+    
+        navLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            if (navCollapse.classList.contains('show')) {
+              var bsCollapse = new bootstrap.Collapse(navCollapse, {
+                toggle: true
+              });
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
